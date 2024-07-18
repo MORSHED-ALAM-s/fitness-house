@@ -27,6 +27,11 @@ h2{
     font-size: 3rem;
     font-weight: 900;
 }
+h3{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
 #font{
     font-weight: 900;
     font-size: 4.8rem;
@@ -56,6 +61,9 @@ p{
     text-align: center;
     padding: 0.5rem;
     cursor: pointer;
+}
+.text{
+    text-align: center;
 }
 /* nav bar */
 .nav-bar{
@@ -135,4 +143,29 @@ p{
     top: 25%;
     bottom: 75%;
     margin-left: 60%;
+}
+/* habits */
+.habits{
+    margin-bottom: 2rem;
+}
+.habits-describ{
+    width: 600px;
+    margin: 1rem auto;
+}
+.habits-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    
+}
+.habits-container img{
+    border-radius: 50%;
+    margin: 1rem;
+}
+.habits-item{
+    margin: 2rem;
+    width: 250px;
+    height: 200px;
 }
