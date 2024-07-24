@@ -283,3 +283,39 @@ p{
     #factor{
         width: 33rem;
     }
+    /* meet section styles */
+    .meet-description{
+        text-align: center;
+        margin: 3rem auto;
+        width: 50%;
+    }
+    .meet-container{
+     margin: ;   
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    flex: none;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    }
+.meet-item img{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.meet-item{
+    position: relative;
+}
+.item{
+    position: absolute;
+    top: 80%;
+    bottom: 20%;
+    margin-left: 1.5rem;
+}
+        
+        
+   
