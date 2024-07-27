@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness House</title>
+    <script src="https://kit.fontawesome.com/6d4d41ad2b.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
@@ -17,10 +18,11 @@
                 Fitness
             </a></div>
             <div class="menu-bar">
-                <p class="menu-home"><a href="">Home</a></p>
+                <p id="menu-home" class="menu-item"><a href="">Home</a></p>
                 <p class="menu-item"><a href="">Service</a></p>
                 <p class="menu-item"><a href="">Contact</a></p>
                 <p class="menu-item"><a href="">About</a></p>
+                <p class="hum_bars"><i class="fa-solid fa-bars"></i></p>
             </div>
         </nav>
         <section class="banner">
@@ -76,15 +78,18 @@
                 </div>
             </div>
         </section>
-        <section class="extra fitness">
-            <div class="extra-item">
-                <h1 class="font2">Run an Extra <br>Mile Easily</h1>
-                <p>Running an extra mile easily involves proper pacing, staying hydrated, and maintaining a positive mindset. Ensure you're warmed up and have a consistent breathing pattern. Listening to motivating music or a podcast can help distract from fatigue. Gradually increase your distance to build endurance without overexerting yourself.</p>
-                    <button class="btn-primary">Join Now</button>
+        <section class="bg-color fitness">
+            <div class="extra">
+                <div class="extra-item">
+                    <h1 class="font2">Run an Extra <br>Mile Easily</h1>
+                    <p>Running an extra mile easily involves proper pacing, staying hydrated, and maintaining a positive mindset. Ensure you're warmed up and have a consistent breathing pattern. Listening to motivating music or a podcast can help distract from fatigue. Gradually increase your distance to build endurance without overexerting yourself.</p>
+                        <button class="btn-primary">Join Now</button>
+                </div>
+                <div class="extra-img">
+                    <img src="./images/run.jpg" alt="">
+                </div>
             </div>
-            <div class="extra-img">
-                <img src="./images/run.jpg" alt="">
-            </div>
+            
         </section>
         <!-- training section -->
         <!-- <section class="training fitness">
@@ -112,13 +117,13 @@
                     </div>
                 </div>
         </section> -->
-        <section class="bmc">
+        <section class="bim fitness">
             <div class="bmi-description">
                 <h1 class="font2">BMI Calculator</h1>
             <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or
                 access to a gym.</p>
             </div>
-            <div class="bmi-container">
+            <div class="bg-color bmi-container">
                 <div class="table-div">
                 <table>
                     <caption class="color-w font2">BMI Calculator Chart</caption>
