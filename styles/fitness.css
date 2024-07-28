@@ -174,6 +174,12 @@ hr{
     top: 50%;
     bottom: 50%;
 }
+.fa-solid{
+    color: white;
+    margin-top: 0.8rem;
+    margin-left: 0.3rem;
+    display: none;
+}
 .banner-card2{
     top: 25%;
     bottom: 75%;
@@ -312,6 +318,7 @@ hr{
     height: 300px;
     border-radius: 10px;
     margin-bottom: 1rem;
+    text-align: center;
 }
 .meet-item{
     position: relative;
@@ -358,14 +365,35 @@ ul  li  a{
         display: block;
         color: white;
     }
+    .banner-card2{
+        top: 18%;
+        bottom: 82%;
+        margin-left: 52%;
+    }
+    .fa-solid{
+        color: white;
+        margin-top: 0.8rem;
+        margin-left: 0.3rem;
+        cursor: pointer;
+        display: block;
+    }
+    .bg-color{
+        padding: 0rem;
+    }
+    .extra{
+        gap: 2rem;
+    }
     .extra-img img{
         border-radius: 10px;
-        width: 90%;  
+        width: 100%;
+        padding: 0px;
+        text-align: center;  
     }
     .banner,.extra,.habits-container, 
     .training-container,.bmi-container,
     .meet-container,.footer-container{
         grid-template-columns: 1fr;
+        padding: 0rem;
     }
     
     .bmi-description{
