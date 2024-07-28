@@ -31,7 +31,7 @@
 .body-color{
     background-color:rgb(0, 0, 0)
 }
-h1{
+h1,h5{
     color: white;
 }
 h2{
@@ -356,6 +356,87 @@ ul  li  a{
     font-weight: 400;
     line-height: 150%;
 }
+/* Cchallenges-part */
+.challenges-part{
+    background-color:rgba(255, 255, 255, 0.1) ;
+    padding: 0.4rem;
+}
+.challenges-description{
+    text-align: center;
+    margin: 3rem auto;
+    max-width: 50%;
+}
+.challenges-container{
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    gap: 1.5rem;
+    
+}
+.chall-1{
+    background-color: #351461;
+    padding: 1rem;
+    border-radius: 8px;
+    line-height: 2rem;
+}
+#call-1v{
+    color: white;
+    font-size: large;
+    font-weight: 900;
+}
+#call-2v{
+    color: #351461;
+    font-size: large;
+    font-weight: 900;
+}
+.value{
+    display: flex;
+    justify-content: space-between;
+}
+#size{
+    color: yellow;
+    font-size: 2rem;
+}
+#size1{
+    font-size: 2rem;
+    color: #6604e6ec;
+}
+.yellow{
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+}
+.chall-2{
+    background-color:white;
+    padding: 1rem;
+    border-radius: 8px;
+    line-height: 2rem;
+}
+.black{
+    color: black;
+}
+.color1{
+    color: #646461;
+}
+.beguni{
+    background-color: #44194D;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#hr{
+    height: 2px;
+    background-color: rgba(27, 23, 23, 0.5);
+    border: none;
+    margin: 2rem;
+}
 /* resposive small divice */
 @media screen and (max-width:576px) {
     .menu-item{
@@ -391,7 +472,7 @@ ul  li  a{
     }
     .banner,.extra,.habits-container, 
     .training-container,.bmi-container,
-    .meet-container,.footer-container{
+    .meet-container,.footer-container,.challenges-container{
         grid-template-columns: 1fr;
         padding: 0rem;
     }
